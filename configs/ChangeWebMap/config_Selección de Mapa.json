@@ -1,0 +1,6 @@
+{
+  "portalUrl": "http://sgcolombiano.maps.arcgis.com",
+  "publicContent": {
+    "query": "(group:1d229ac010b442dd98e7b280f9b98444) AND access:public"
+  }
+}

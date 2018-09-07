@@ -1,0 +1,297 @@
+{
+  "layers": [
+    {
+      "name": "Departamentos",
+      "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Mapa_Intensidad_Maxima_Observada_Colombia/Intensidad_Observada_Departamento_Municipio/MapServer/2",
+      "definitionexpression": "",
+      "spatialsearchlayer": true,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": true,
+      "addToAttrib": true,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Consulta Por Departamento",
+            "textsearchlabel": "Consulta Por Departamento",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "DEPARTAMENTO",
+                    "label": "Departamento",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Departamento is",
+                  "textsearchhint": "Nombre del departamento",
+                  "sqltext": "DEPARTAMENTO = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "DEPARTAMENTO"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": "DEPARTAMENTO",
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "DEPARTAMENTO",
+            "alias": "Departamento"
+          },
+          {
+            "name": "COD_DEPARTAMENTO",
+            "alias": "COD_DEPARTAMENTO"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "layer",
+      "symbology": {
+        "color": [
+          5,
+          241,
+          222,
+          0
+        ],
+        "outline": {
+          "color": [
+            22,
+            238,
+            238,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      }
+    },
+    {
+      "name": "Amenaza Volcanica",
+      "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Amenaza_Volcanica/Amenaza_Volcanica/MapServer/45",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": true,
+      "addToAttrib": true,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Nombre Volcan",
+            "textsearchlabel": "Nombre Volcan",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "NOMBRE_VOL",
+                    "label": "NOMBRE_VOL",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": "Nevado de Santa Isabel"
+                  },
+                  "prompt": "",
+                  "textsearchhint": "",
+                  "sqltext": "NOMBRE_VOL = 'Nevado de Santa Isabel'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "NOMBRE_VOL"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": "NOMBRE_VOL",
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "NOMBRE_VOL",
+            "alias": "NOMBRE_VOL",
+            "popuponly": true
+          },
+          {
+            "name": "URL",
+            "alias": "URL",
+            "popuponly": true
+          },
+          {
+            "name": "URL_MEMORIA",
+            "alias": "URL_MEMORIA",
+            "popuponly": true
+          },
+          {
+            "name": "URL_FOTOGRAFIA",
+            "alias": "URL_FOTOGRAFIA",
+            "popuponly": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    }
+  ],
+  "initialView": "text",
+  "enablePopupsOnResultClick": false,
+  "exportsearchurlchecked": false,
+  "limitsearch2mapextentchecked": false,
+  "autozoomtoresults": true,
+  "mouseovergraphics": true,
+  "bufferDefaults": {
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true,
+    "enablepolylineselect": true,
+    "enableextentselect": true,
+    "enablecircleselect": true,
+    "enablepolyselect": true,
+    "showmultigraphicsgraphicaloption": true,
+    "showaddtolerancegraphicaloption": true,
+    "showaddsqltextgraphicaloption": true,
+    "showbuffergraphicaloption": true,
+    "buffercheckedbydefaultgraphicaloption": false,
+    "multipartgraphicsearchchecked": false,
+    "addpointtolerancechecked": false,
+    "keepgraphicalsearchenabled": true
+  },
+  "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "url": "images/i_search.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+        255,
+        0,
+        0,
+        204
+      ],
+      "width": 2
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        128
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          204
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "resultFormat": {
+    "attTitlesymbol": {
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "attValuesymbol": {
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ]
+    }
+  }
+}

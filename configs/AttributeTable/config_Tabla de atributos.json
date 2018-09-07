@@ -1,0 +1,241 @@
+{
+  "layerInfos": [
+    {
+      "name": "Capitales Principales",
+      "id": "Zonificacion_Sismica_Intensidad_Esperada_6145_0",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Zonificacion_Sismica_Intensidad_Esperada/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "MCAP_NOMB_GEOG",
+            "alias": "Nombre geográfico"
+          },
+          {
+            "show": false,
+            "name": "SHAPE",
+            "alias": "SHAPE"
+          },
+          {
+            "show": false,
+            "name": "RULEID",
+            "alias": "RuleID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.AREA",
+            "alias": "SHAPE.AREA"
+          },
+          {
+            "show": false,
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN"
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Municipios",
+      "id": "Zonificacion_Sismica_Intensidad_Esperada_6145_1",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Zonificacion_Sismica_Intensidad_Esperada/MapServer/1",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SGO_F21PGAM_PGA_MUNICIP_AREA",
+            "alias": "Área"
+          },
+          {
+            "show": false,
+            "name": "PERIMETER",
+            "alias": "Perimetro"
+          },
+          {
+            "show": false,
+            "name": "F2_2120_",
+            "alias": "F2_2120_"
+          },
+          {
+            "show": false,
+            "name": "F2_2120_ID",
+            "alias": "F2_2120_ID"
+          },
+          {
+            "show": true,
+            "name": "NOMBRE",
+            "alias": "Nombre"
+          },
+          {
+            "show": true,
+            "name": "NOMBRE_GEO",
+            "alias": "Nombre Geográfico"
+          },
+          {
+            "show": true,
+            "name": "COD",
+            "alias": "Código"
+          },
+          {
+            "show": true,
+            "name": "NMG",
+            "alias": "Nombre Geográfico"
+          },
+          {
+            "show": true,
+            "name": "TIPO",
+            "alias": "Tipo"
+          },
+          {
+            "show": false,
+            "name": "PGA",
+            "alias": "PGA"
+          },
+          {
+            "show": false,
+            "name": "POLYGONID",
+            "alias": "Polígono"
+          },
+          {
+            "show": false,
+            "name": "SCALE",
+            "alias": "Escala"
+          },
+          {
+            "show": false,
+            "name": "ANGLE",
+            "alias": "Ángulo"
+          },
+          {
+            "show": false,
+            "name": "SHAPE",
+            "alias": "Shape"
+          },
+          {
+            "show": false,
+            "name": "RULEID",
+            "alias": "RuleID"
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "name": "Leticia",
+      "id": "Zonificacion_Sismica_Intensidad_Esperada_6145_2",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Zonificacion_Sismica_Intensidad_Esperada/MapServer/2"
+      },
+      "show": false
+    },
+    {
+      "name": "Límite departamento",
+      "id": "Zonificacion_Sismica_Intensidad_Esperada_6145_5",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Zonificacion_Sismica_Intensidad_Esperada/MapServer/5"
+      },
+      "show": false
+    },
+    {
+      "name": "Límite marítimo",
+      "id": "Zonificacion_Sismica_Intensidad_Esperada_6145_6",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Zonificacion_Sismica_Intensidad_Esperada/MapServer/6"
+      },
+      "show": false
+    },
+    {
+      "name": "Limite_Municipal",
+      "id": "Departamentos_Municipios_zonificacion_Intensidad_Sismica_Esperada_523_0",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Departamentos_Municipios_zonificacion_Intensidad_Sismica_Esperada/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID_1",
+            "show": false
+          },
+          {
+            "name": "CATEGORIA",
+            "alias": "CATEGORIA",
+            "show": false
+          },
+          {
+            "name": "AREA_KM",
+            "alias": "AREA_KM",
+            "show": false
+          },
+          {
+            "name": "SHAPE",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "CODIGO_DANE",
+            "alias": "Código DANE",
+            "show": true
+          },
+          {
+            "name": "DEPARTAMENTO",
+            "alias": "Departamentos",
+            "show": true
+          },
+          {
+            "name": "MUNICIPIO",
+            "alias": "Municipios",
+            "show": true
+          },
+          {
+            "name": "ZONAS_AMENAZA_SISMICA_NSR_10",
+            "alias": "Zona Amenaza Sismica NRS 10",
+            "show": true
+          },
+          {
+            "name": "RULEID",
+            "alias": "RuleID",
+            "show": false
+          },
+          {
+            "name": "SHAPE.AREA",
+            "alias": "SHAPE.AREA",
+            "show": false
+          },
+          {
+            "name": "SHAPE.LEN",
+            "alias": "SHAPE.LEN",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Departamentos",
+      "id": "Departamentos_Municipios_zonificacion_Intensidad_Sismica_Esperada_523_1",
+      "layer": {
+        "url": "http://srvags.sgc.gov.co/arcgis/rest/services/Zonificacion_Sismica_Intensidad_Esperada/Departamentos_Municipios_zonificacion_Intensidad_Sismica_Esperada/MapServer/1"
+      },
+      "show": true
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false
+}
